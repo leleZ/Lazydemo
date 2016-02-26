@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="jikexueyuan.css">
+    <title>极客学院测试</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <div class="wrap">
+                <a href="http://www.jikexueyuan.com/">
+                    <h2>
+                        <img src="http://s1.jikexueyuan.com/common/images/logo_c8caff4.png" class="logo">
+                    </h2>
+                </a>
+                <!--搜索框-->
+                <div class="search-section">
+                    <div class="headsearch">
+                        <input class="search-text" placeholder="搜索课程、问答或Wiki">
+                        <input type="submit" class="search-btn" value>
+                        <div class="hot-words" style="display: block;">
+                            <a href="http://search.jikexueyuan.com/course/?q=Android">Android</a>
+                            <a href="http://search.jikexueyuan.com/course/?q=iOS">iOS</a>
+                            <a href="http://search.jikexueyuan.com/course/?q=HTML5">HTML5</a>
+                        </div>
+                    </div>
+                </div>
+                <!--登录-->
+                <div class="loginbox">
+                    <span class="my-massage2">&nbsp;</span>
+                    <em style="padding: 0px 10px;">|</em>
+                    <a href="http://passport.jikexueyuan.com/connect/qq" style="text-decoration:none;color:#333;">
+                        <span>QQ登录</span>
+                    </a>
+                    <em style="padding: 0px 10px">|</em>
+                    <span>
+                        <a href="http://passport.jikexueyuan.com/sso/login">登录</a>
+                    </span>
+                    <em style="padding: 0px 10px">|</em>
+                    <span>
+                        <a href="http://passport.jikexueyuan.com/sso/reg_phone">注册</a>
+                    </span>
+                    <em style="padding: 0px 10px">|</em>
+                </div>
+            </div>
+        </div>
+        <!--loading线条-->
+        <div id="loading">
+            <div class="loading-length" style="width: 1903px"></div>
+        </div>
+        <!--导航条-->
+        <div class="navpositon">
+            <div id="navbox">
+                <div class="nav">
+                    <div class="navbox">
+                        <a class="navbox-item" href="http://www.jikexueyuan.com/">首页</a>
+                        <a class="navbox-item" href="http://www.jikexueyuan.com/course/">职业课程库</a>
+                        <a class="navbox-item" href="http://www.jikexueyuan.com/path/">知识体系图</a>
+                        <a class="navbox-item" href="http://ke.jikexueyuan.com/zhiye/">职业路径图</a>
+                        <a class="navbox-item" href="http://wenda.jikexueyuan.com/">技术问答</a>
+                        <a class="navbox-item" href="http://wiki.jikexueyuan.com/" style="position: relative">Wiki</a>
+                        <ul class="navpanel">
+                            <li class="panel-item">
+                                <span class="angle"></span>
+                                <ul class="item-box">
+                                    <li>
+                                        <a href="http://www.jikexueyuan.com/course/">课程库</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.jikexueyuan.com/path/">知识体系图</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://ke.jikexueyuan.com/zhiye/">职业路径图</a>
+                                    </li>
+                                    <li>
+                                       <a href="http://ke.jikexueyuan.com/xilie/">系列课程</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="panel-item">
+                                <span class="angle"></span>
+                                <ul class="item-box">
+                                    <li>
+                                        <a href="http://jiuye.jikexueyuan.com/train/web">Web前端开发</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://jiuye.jikexueyuan.com/train/android">Android开发</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://jiuye.jikexueyuan.com/train/javaweb">JavaWeb开发</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="panel-item">
+                                <span class="angle"></span>
+                                <ul class="item-box">
+                                    <li>
+                                        <a href="http://wiki.jikexueyuan.com">Wiki</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wenda.jikexueyuan.com/">技术问答</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://qun.jikexueyuan.com">社群</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://download.jikexueyuan.com">资源分享</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="panel-item">
+                                <span class="angle"></span>
+                                <ul class="item-box">
+                                    <li>
+                                        <a href="http://mooc.jikexueyuan.com">高校合作</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://zhiye.jikexueyuan.com">极客人才联盟</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://press.jikexueyuan.com/evangelist/apply.html">布道师招聘</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://jiuye.jikexueyuan.com/assistant/apply">兼职助教招募</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user-need">
+                        <a href="http://www.jikexueyuan.com/vip/">
+                            <span>
+                                <img src="http://s1.jikexueyuan.com/common/images/vip-icon_76ae754.png">
+                                VIP会员
+                            </span>
+                        </a>
+                        <a href="http://press.jikexueyuan.com/topic/">
+                            <span>
+                                <img src="http://s1.jikexueyuan.com/common/images/star-icon_c593bc1.png">
+                                求课程
+                            </span>
+                        </a>
+                        <a href="http://www.jikexueyuan.com/app/">
+                            <span>
+                                <img src="http://s1.jikexueyuan.com/common/images/dl-icon_4bc18a7.png">
+                                客户端
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 主要内容-->
+        <div id="pager">
+        <!--主要栏目-->
+            <div class="w-1000 mar-t20">
+                <!-- 左边-->
+                <div class="lesson-classfiy-nav">
+                    <ul>
+                        <li class="nav1">
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/mobile">移动开发</a>
+                                <div class="lesson-list-show list1" style="width: 401px">
+                                    <div style="width: 400px">
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/app">应用开发</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="http://www.jikexueyuan.com/course/android">Android</a>
+                                                <a href="http://www.jikexueyuan.com/course/ios">iOS</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/games">游戏开发</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="http://www.jikexueyuan.com/course/cocos">Cocos</a>
+                                                <a href="http://www.jikexueyuan.com/course/unity3d">Unity3D</a>
+                                                <a href="http://www.jikexueyuan.com/course/spritekit2d">SpriteKit 2D</a>
+                                                <a href="http://www.jikexueyuan.com/course/unreal">Unreal</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/frame">常用框架</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="http://www.jikexueyuan.com/course/cordova">Cordova</a>
+                                                <a href="http://www.jikexueyuan.com/course/reactnative1">React Native</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav2">
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/web">前端开发</a>
+                                <div class="lesson-list-show list2" style="width: 401px">
+                                    <div style="width: 400px">
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/webbase">前端基础</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/html">HTML</a>
+                                                <a href="http://www.jikexueyuan.com/course/css">CSS</a>
+                                                <a href="http://www.jikexueyuan.com/course/javascript">JavaScript</a>
+                                                <a href="http://www.jikexueyuan.com/course/html5">HTML5</a>
+                                                <a href="http://www.jikexueyuan.com/course/css3http://www.jikexueyuan.com/course/css3">CSS3</a>
+                                                <a href="http://www.jikexueyuan.com/course/prospective">技术前瞻</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/advance">前端进阶</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/typescript">Typescript</a>
+                                                <a href="http://www.jikexueyuan.com/course/security">前端安全</a>
+                                                <a href="http://www.jikexueyuan.com/course/practice">项目实战</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/webframe">前端框架</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/jquery">jQuery</a>
+                                                <a href="http://www.jikexueyuan.com/course/jqueryui">jQuery UI</a>
+                                                <a href="http://www.jikexueyuan.com/course/jquerymobile">jQuery Mobile</a>
+                                                <a href="http://www.jikexueyuan.com/course/angularjs">AngularJS</a>
+                                                <a href="http://www.jikexueyuan.com/course/reactjs">ReactJS</a>
+                                                <a href="http://www.jikexueyuan.com/course/bootstrap">Bootstrap</a>
+                                                <a href="http://www.jikexueyuan.com/course/reactnative">React Native</a>
+                                                <a href="http://www.jikexueyuan.com/course/backbone">Backbone</a>
+                                                <a href="http://www.jikexueyuan.com/course/threejs">Three.js</a>
+                                                <a href="http://www.jikexueyuan.com/course/mootools">MooTools</a>
+                                                <a href="http://www.jikexueyuan.com/course/compass">Compass</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/html5games">HTML5游戏</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/canvas">Canvas</a>
+                                                <a href="http://www.jikexueyuan.com/course/svg">SVG</a>
+                                                <a href="http://www.jikexueyuan.com/course/webgl">WebGL</a>
+                                                <a href="http://www.jikexueyuan.com/course/cocos2djs">Cocos2d-js</a>
+                                                <a href="http://www.jikexueyuan.com/course/createjs">CreateJS</a>
+                                                <a href="http://www.jikexueyuan.com/course/webflash">Flash</a>
+                                                <a href="http://www.jikexueyuan.com/course/webunreal">Unreal</a>
+                                                <a href="http://www.jikexueyuan.com/course/webegret">Egret</a>
+                                                <a href="http://www.jikexueyuan.com/course/phaser">Phaser</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav3">
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/dev">后端开发</a>
+                                <div class="lesson-list-show list3" style="width: 401px">
+                                    <div style="width: 400px">
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/python">Python</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/pythonbase">Python 基础</a>
+                                                <a href="http://www.jikexueyuan.com/course/web2py">web2py</a>
+                                                <a href="http://www.jikexueyuan.com/course/django">Django</a>
+                                                <a href="http://www.jikexueyuan.com/course/flask">Flask</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/php">PHP</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/phpbase">PHP 基础</a>
+                                                <a href="http://www.jikexueyuan.com/course/yii">YII</a>
+                                                <a href="http://www.jikexueyuan.com/course/laravel">Laravel</a>
+                                                <a href="http://www.jikexueyuan.com/course/wordpress">WordPress</a>
+                                                <a href="http://www.jikexueyuan.com/course/phalcon">Phalcon</a>
+                                                <a href="http://www.jikexueyuan.com/course/apachedev/">Apache</a>
+                                                <a href="http://www.jikexueyuan.com/course/fackbookhack/">Fackbook Hack</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/nodedotjs/">Node.js</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/nodejs/">Node.js 基础</a>
+                                                <a href="http://www.jikexueyuan.com/course/express/">express</a>
+                                                <a href="http://www.jikexueyuan.com/course/meteor/">Meteor</a>
+                                                <a href="http://www.jikexueyuan.com/course/hexo/">Hexo</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/aspdotnet/">ASP.NET</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/csharpdev/">C#</a>
+                                                <a href="http://www.jikexueyuan.com/course/mvc/">ASP.NET MVC</a>
+                                                <a href="http://www.jikexueyuan.com/course/entity/">Entity Framework</a>
+                                                <a href="http://www.jikexueyuan.com/course/wpf/">WPF</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <a href="http://www.jikexueyuan.com/course/j2ee/">J2EE</a>
+                                            </dt>
+                                            <dd class="cf">
+                                                <a href="http://www.jikexueyuan.com/course/jsp/">JSP</a>
+                                                <a href="http://www.jikexueyuan.com/course/maven/">Maven</a>
+                                                <a href="http://www.jikexueyuan.com/course/spring/">Spring</a>
+                                                <a href="http://www.jikexueyuan.com/course/springmvc/">SpringMVC</a>
+                                                <a href="http://www.jikexueyuan.com/course/struts2/">Struts2</a>
+                                                <a href="http://www.jikexueyuan.com/course/mybatis/">MyBatis</a>
+                                                <a href="http://www.jikexueyuan.com/course/hibernate/">Hibernate</a>
+                                                <a href="http://www.jikexueyuan.com/course/lucene/">常用框架</a>
+                                                <a href="http://www.jikexueyuan.com/course/j2eeframe/">Phaser</a>
+                                                <a href="http://www.jikexueyuan.com/course/j2eepractice/">项目实战</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/base/">基础知识</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/clouddata/">云计算&大数据</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/intellegence/">智能硬件&物联网</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/db/">数据库</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/certificate/">认证考试</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/enterpriseit/">企业 IT</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.jikexueyuan.com/course/productdesign/">设计&产品&测试</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 中间-->
+                <div class="lesson-center-focus">
+                    <div class="index-banner">
+                        <div class="swiper-container banner-box" style="cursor: -webkit-grab;">
+                            <span id="banner-left" class="arrow-left banner" style="display: none"></span>
+                            <span id="banner-right" class="arrow-right banner" style="display:none;"></span>
+                            <div class="swiper-wrapper" style="width: 4480px;height: 260px ;position: relative;">
+                                <div>
+                                 <a href="http://e.jikexueyuan.com/invite/invite.html?huodong=invite_shouye_banner">
+                                     <img src="http://a1.jikexueyuan.com/home/201512/07/d3f9/5664eaf706121.jpg" width="560" height="260">
+                                 </a>
+                                 <a href="http://jiuye.jikexueyuan.com/train/web?huodong=jiuye_web_shouye_banner_0910">
+                                    <img src="http://a1.jikexueyuan.com/home/201512/03/bd7f/56600143c48b6.jpg" width="560" height="260">
+                                 </a>
+                                 <a href="http://qun.jikexueyuan.com/activity/topic/146?huodong=shequn_shouye_banner_1203">
+                                    <img src="http://a1.jikexueyuan.com/home/201512/23/4589/567a2c205333d.jpg" width="560" height="260">
+                                 </a>
+                                <a href="http://zhiye.jikexueyuan.com/qiye/join?huodong=ruzhu_shouye_banner_1207">
+                                     <img src="http://a1.jikexueyuan.com/home/201512/22/a805/5678b27304e0f.jpg" width="560" height="260">
+                                 </a>
+                                 <a href="http://jiuye.jikexueyuan.com/train/javaweb?huodong=jiuye_javaweb_shouye_banner">
+                                     <img src="http://a1.jikexueyuan.com/home/201512/23/1256/5679f657d39e3.jpg" width="560" height="260">
+                                 </a>
+                                <a href="http://jiuye.jikexueyuan.com/train/android?huodong=jiuye_android_shouye_banner">
+                                   <img src="http://a1.jikexueyuan.com/home/201512/23/4597/567a2c2f10262.jpg" width="560" height="260">
+                                 </a>
+                                 </div>
+                            </div>
+                            <div class="pagination">
+                                <span class="swiper-pagination-switch"></span>
+                                <span class="swiper-pagination-switch"></span>
+                                <span class="swiper-pagination-switch"></span>
+                                <span class="swiper-pagination-switch"></span>
+                                <span class="swiper-pagination-switch"></span>
+                                <span class="swiper-pagination-switch"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="focuswork-wrap">
+                        <a class="arrow arrow-left arrow1" id="banner-left2"></a>
+                        <a class="arrow arrow-right arrow1" id="banner-right2"></a>
+                        <div class="img-list">
+                        <ul class="lesson-list swiper-wrapper" style="width: 1866.67px; height: 100px;">
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/train/android?huodong=jiuye_android_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://wirrorcdn.jikexueyuan.com/picture/android.png" class="lession-icon">
+                                    <p class="lession-title">Android开发工程师</p>
+                                    <p class="intro">
+                                        挑战月薪2万的工作机会
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/train/javaweb?huodong=jiuye_javaweb_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://a1.jikexueyuan.com/home/201512/04/2b66/5661021bd07e6.jpg" class="lession-icon">
+                                    <p class="lession-title">JavaWeb开发工程师</p>
+                                    <p class="intro">
+                                        Java人才4个月极速进阶
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/?huodong=jiuye_all_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://a1.jikexueyuan.com/home/201512/04/b1e4/56615f22aa6eb.jpg" class="lession-icon">
+                                    <p class="lession-title">极客学院就业班</p>
+                                    <p class="intro">
+                                        0基础 | 4个月 | 100%保就业
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/train/web?huodong=jiuye_web_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://wirrorcdn.jikexueyuan.com/picture/html.png" class="lession-icon">
+                                    <p class="lession-title">HTML5/Web前端工程师</p>
+                                    <p class="intro">
+                                        BAT大牛亲自授课
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/train/android?huodong=jiuye_android_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://wirrorcdn.jikexueyuan.com/picture/android.png" class="lession-icon">
+                                    <p class="lession-title">Android开发工程师</p>
+                                    <p class="intro">
+                                        挑战月薪2万的工作机会
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/train/javaweb?huodong=jiuye_javaweb_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://a1.jikexueyuan.com/home/201512/04/2b66/5661021bd07e6.jpg" class="lession-icon">
+                                    <p class="lession-title">JavaWeb开发工程师</p>
+                                    <p class="intro">
+                                        Java人才4个月极速进阶
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/?huodong=jiuye_all_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://a1.jikexueyuan.com/home/201512/04/b1e4/56615f22aa6eb.jpg" class="lession-icon">
+                                    <p class="lession-title">极客学院就业班</p>
+                                    <p class="intro">
+                                        0基础 | 4个月 | 100%保就业
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/train/web?huodong=jiuye_web_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://wirrorcdn.jikexueyuan.com/picture/html.png" class="lession-icon">
+                                    <p class="lession-title">HTML5/Web前端工程师</p>
+                                    <p class="intro">
+                                        BAT大牛亲自授课
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/train/android?huodong=jiuye_android_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://wirrorcdn.jikexueyuan.com/picture/android.png" class="lession-icon">
+                                    <p class="lession-title">Android开发工程师</p>
+                                    <p class="intro">
+                                        挑战月薪2万的工作机会
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide" style="width: 186.667px;height: 100px">
+                                <a href="http://jiuye.jikexueyuan.com/train/javaweb?huodong=jiuye_javaweb_in" class="lession-item">
+                                    <span class="status red">
+                                        <span class="shadow"></span>
+                                        保就业
+     `                               </span>
+                                    <img src="http://a1.jikexueyuan.com/home/201512/04/2b66/5661021bd07e6.jpg" class="lession-icon">
+                                    <p class="lession-title">JavaWeb开发工程师</p>
+                                    <p class="intro">
+                                        Java人才4个月极速进阶
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 右边-->
+                <div class="lesson-right-show">
+                    <div class="news">
+                        <h3>快讯</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="http://qun.jikexueyuan.com/activity/topic/146?huodong=shequn_shouye_kuaixun" style="color: red">
+                                    “分享干货 赢壕奖”火热进行中！！
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="http://qun.jikexueyuan.com/wiki/topic/144?huodong=wikiweek_shouye_kuaixun">
+                                    “极客阅读周”活动完美收官
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="http://mooc.jikexueyuan.com/?huodong=yuanxiao_shouye_kuaixun">
+                                    极客学院成功牵手二百多所高校
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="http://qun.jikexueyuan.com/jikexueyuan/topic/147?huodong=huojiang_shouye_kuaixun">
+                                    极客学院斩获腾讯教育双料大奖
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="userinfo">
+                        <div class="head-box">
+                            <img width="40" src="http://assets.jikexueyuan.com/user/avtar/default.gif">
+                        </div>
+                        <div class="name-wrap">
+                            <div class="hello-word">
+                                <span class="word">
+                                    Hi！你好
+                                    <p class="sentence">欢迎来到极客学院</p>
+                                </span>
+                            </div>
+                            <div class="operate">
+                                <a href="#" class="login-btn">登录</a>
+                                <a href="#" class="register-btn">注册</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recommend">
+                        <ul class="start-list" style="height: 152px">
+                            <li class="first">
+                                <span class="question icon"></span>
+                                <span class="title">问答</span>
+                                <span class="angle-bottom"></span>
+                            </li>
+                            <li class="second">
+                                <span class="wiki icon"></span>
+                                <span class="title">wiki</span>
+                                <span class="angle-bottom"></span>
+                            </li>
+                            <li class="third">
+                                <span class="lession icon"></span>
+                                <span class="title">课程</span>
+                                <span class="angle-bottom"></span>
+                            </li>
+                            <li class="fourth">
+                                <span class="group icon"></span>
+                                <span class="title">社群</span>
+                                <span class="angle-bottom"></span>
+                            </li>
+                            <li>
+                                <a href="http://download.jikexueyuan.com/">
+                                    <span class="download icon"></span>
+                                    <span class="title">下载</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.jikexueyuan.com/path/">
+                                    <span class="know icon"></span>
+                                    <span class="title">知识</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://ke.jikexueyuan.com/zhiye/">
+                                    <span class="occupation  icon"></span>
+                                    <span class="title">职业</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.jikexueyuan.com/vip/">
+                                    <span class="vip icon"></span>
+                                    <span class="title">VIP</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="move-list">
+                            <ul class="type-list">
+                                <li class="question">问答</li>
+                                <li class="wiki">wiki</li>
+                                <li class="lession">课程</li>
+                                <li class="group">社群</li>
+                            </ul>
+                            <div class="content">
+                                <ul class="question tab-content" style="display: none">
+                                    <li>
+                                        <a href="http://wenda.jikexueyuan.com/question/26076/">
+                                            <img width="16" src="http://a1.jikexueyuan.com/home/201411/03/171a/54578ddd8e62a.png">
+                                            <span class="title">【问答技巧】怎样提问才能让我的问题更快速被解答？</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wenda.jikexueyuan.com/question/27538/">
+                                            <img width="16" src="http://a1.jikexueyuan.com/home/201502/26/c2a9/54eeb7cba8791.png">
+                                            <span class="title">Bootstrap 最新版 V4 中文文档</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wenda.jikexueyuan.com/question/28716/">
+                                            <img width="16" src="http://wirrorcdn.jikexueyuan.com/category/devbase.png">
+                                            <span class="title">【老师分享】对LPS的Manacher算法感兴趣的同学请</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wenda.jikexueyuan.com/question/10726/">
+                                            <img width="16" src="http://wirrorcdn.jikexueyuan.com/category/games.png">
+                                            <span class="title">build_native.py时报错</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wenda.jikexueyuan.com/question/372/">
+                                            <img width="16" src="http://wirrorcdn.jikexueyuan.com/category/mobile.png">
+                                            <span class="title">超级菜鸟想成为怎么成长？</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div id="recommendWiki">
+                                    <ul class="wiki tab-content" style="display: none">
+                                        <li>
+                                            <a href="http://wiki.jikexueyuan.com/project/restful/?hmsr=www_index_wiki">
+                                                <img src="http://wikicdn.jikexueyuan.com/cover/recommend/64ce722eef54439989098ac1c5ddaadb.jpeg">
+                                                <p class="title">RESTful Web 服务教程</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://wiki.jikexueyuan.com/project/nodejs-guide/?hmsr=www_index_wiki">
+                                                <img src="http://wikicdn.jikexueyuan.com/cover/recommend/50be2f88df7d4b4f9840b4abe76db1aa.jpeg">
+                                                <p class="title">七天学会 Nodejs</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://wiki.jikexueyuan.com/project/ios-developer-library/?hmsr=www_index_wiki">
+                                                <img src="http://wikicdn.jikexueyuan.com/cover/recommend/5118e8df69c941efa4e39b5b8e7d5386.jpeg">
+                                                <p class="title">快速开发 iOS 应用程序</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="recommendLession">
+                                    <ul class="lession tab-content" style="display: none">
+                                        <li>
+                                            <a href="http://www.jikexueyuan.com/path/html5/">
+                                                <img src="http://wirrorcdn.jikexueyuan.com/picture/html.png" class="picture">
+                                                <p class="title">HTML5开发</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.jikexueyuan.com/path/android/">
+                                                <img src="http://wirrorcdn.jikexueyuan.com/picture/android.png" class="picture">
+                                                <p class="title">Android</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.jikexueyuan.com/path/cocos2d-x/">
+                                                <img src="http://wirrorcdn.jikexueyuan.com/picture/Cocos2d-x.png" class="picture">
+                                                <p class="title">Cocos2d-x游戏开发</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.jikexueyuan.com/path/java/">
+                                                <img src="http://wirrorcdn.jikexueyuan.com/picture/Java.png" class="picture">
+                                                <p class="title">Java语言</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="recommendGroup">
+                                    <ul class="group tab-content" style="display: none">
+                                        <li>
+                                            <img src="http://qun.jikexueyuan.com/File/c58bb41944592a9e1bf334472e5c078d.png" class="picture">
+                                            <div class="info">
+                                                <p class="title">Android工程师</p>
+                                                <p class="count">
+                                                    已有
+                                                    <span>136</span>
+                                                    人加入
+                                                </p>
+                                            </div>
+                                            <a href="http://qun.jikexueyuan.com/android" class="join">＋ 加入</a>
+                                        </li>
+                                        <li>
+                                            <img src="http://qun.jikexueyuan.com/File/b6b490c2efa84f1ea9ee435323118560.png" class="picture">
+                                            <div class="info">
+                                                <p class="title">Web大前端工程师</p>
+                                                <p class="count">
+                                                    已有
+                                                    <span>136</span>
+                                                    人加入
+                                                </p>
+                                            </div>
+                                            <a href="http://qun.jikexueyuan.com/web" class="join">＋ 加入</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 热门课程板块选择栏-->
+            <div class="hot-lesson w-1000">
+                <ul>
+                    <li>热门推荐</li>
+                    <li>最新课程</li>
+                    <li>免费课程</li>
+                    <li>项目实战</li>
+                    <li>全球首发</li>
+                    <li>企业合作</li>
+                </ul>
+            </div>
+            <!-- 热门课程-->
+            <div id="hot-lessonbox" style="height: 220px">
+                <div class="lesson-list" style="display: block">
+                    <ul>
+                        <li class="bgbox1">
+                            <div class="lessonimg-box">
+                                <a href="http://www.jikexueyuan.com/course/2317.html">
+                                    <img src="http://a1.jikexueyuan.com/home/201512/02/b4c0/565e5fcc5f217.jpg" class="lessonimg">
+                                    <div class="lessonplay lessonplay1" style="opacity: 0">
+                                        <i class="playericon"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="lesson-infor lesson-infor1" style="height: 88px">
+                                <h2 class="lesson-info-h2">
+                                    <a href="http://www.jikexueyuan.com/course/2317.html">小说网站分布式爬虫的实现</a>
+                                </h2>
+                                <p class="exp1" style="height: 0px; opacity: 0; display: none;">
+                                        本课程接上一课的内容，从多线程的角度实现小说网站信息的采集、分析、存储等，在这个过程中重点介绍如何实现小说网站信息的分布式采集。
+                                </p>
+                                <div class="timeandicon">
+                                    <div>
+                                        <dl>
+                                            <dd class="mar-b8">
+                                                <i class="time-icon"></i>
+                                                <em>4课时 39分钟</em>
+                                            </dd>
+                                            <dd class="zhongji" style="display: none;">
+                                                <i class="xinhao-icon3"></i>
+                                                <em>高级</em>
+                                            </dd>
+                                        </dl>
+                                        <em class="learn-number" style="display: none">2947人学习</em>
+                                    </div>
+                                    <div>
+                                        <div class="lessonicon-box">
+                                            <a href="http://www.jikexueyuan.com/course/lucene/">
+                                                <img src="http://a1.jikexueyuan.com/home/201502/26/8cb0/54eeb77cb6992.png" width="16">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bgbox2">
+                            <div class="lessonimg-box">
+                                <a href="http://www.jikexueyuan.com/course/2323.html">
+                                    <img src="http://a1.jikexueyuan.com/home/201512/03/08c5/565face2eeb05.jpg" class="lessonimg">
+                                    <div class="lessonplay lessonplay2" style="opacity: 0">
+                                        <i class="playericon"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="lesson-infor lesson-infor2" style="height: 88px">
+                                <h2 class="lesson-info-h2">
+                                    <a href="http://www.jikexueyuan.com/course/2323.html">小说网站分布式爬虫的实现</a>
+                                </h2>
+                                <p class="exp2" style="height: 0px; opacity: 0; display: none;">
+                                    本课程介绍统计学中的描述统计的思想，讲解用于刻画集中趋势、离散趋势和数据分布形态的相关指标，并通过两个具体实例演示如何在 SPSS 中应用这些思想。
+                                </p>
+                                <div class="timeandicon">
+                                    <div>
+                                        <dl>
+                                            <dd class="mar-b8">
+                                                <i class="time-icon"></i>
+                                                <em>5课时 66分钟</em>
+                                            </dd>
+                                            <dd class="zhongji" style="display: none;">
+                                                <i class="xinhao-icon3"></i>
+                                                <em>初级</em>
+                                            </dd>
+                                        </dl>
+                                        <em class="learn-number" style="display: none">2410人学习</em>
+                                    </div>
+                                    <div>
+                                        <div class="lessonicon-box">
+                                            <a href="http://www.jikexueyuan.com/course/dig/">
+                                                <img src="http://wirrorcdn.jikexueyuan.com/category/infosense.png" width="16">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bgbox3">
+                            <div class="lessonimg-box">
+                                <a href="http://www.jikexueyuan.com/course/2324.html">
+                                    <img src="http://a1.jikexueyuan.com/home/201512/03/435f/565fad11e327d.jpg" class="lessonimg">
+                                    <div class="lessonplay lessonplay3" style="opacity: 0">
+                                        <i class="playericon"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="lesson-infor lesson-infor3" style="height: 88px">
+                                <h2 class="lesson-info-h2">
+                                    <a href="http://www.jikexueyuan.com/course/2324.html">PHP面向对象程序设计之继承性</a>
+                                </h2>
+                                <p class="exp3" style="height: 0px; opacity: 0; display: none;">
+                                    本课程从类的继承应用开始讲解，逐渐深入到访问权限控制，最后讲解重载和重写的实现与应用。
+                                </p>
+                                <div class="timeandicon">
+                                    <div>
+                                        <dl>
+                                            <dd class="mar-b8">
+                                                <i class="time-icon"></i>
+                                                <em>3课时 48分钟</em>
+                                            </dd>
+                                            <dd class="zhongji" style="display: none;">
+                                                <i class="xinhao-icon3"></i>
+                                                <em>中级</em>
+                                            </dd>
+                                        </dl>
+                                        <em class="learn-number" style="display: none">2329人学习</em>
+                                    </div>
+                                    <div>
+                                        <div class="lessonicon-box">
+                                            <a href="http://www.jikexueyuan.com/course/phpbase/">
+                                                <img src="http://a1.jikexueyuan.com/home/201502/04/d12f/54d1c99185f23.png" width="16">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bgbox4">
+                            <div class="lessonimg-box">
+                                <a href="http://www.jikexueyuan.com/course/2318.html">
+                                    <img src="http://a1.jikexueyuan.com/home/201512/02/bda1/565e601368749.jpg" class="lessonimg">
+                                    <div class="lessonplay lessonplay4" style="opacity: 0">
+                                        <i class="playericon"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="lesson-infor lesson-infor4" style="height: 88px">
+                                <h2 class="lesson-info-h2">
+                                    <a href="http://www.jikexueyuan.com/course/2318.html">Photoshop——图像调整2</a>
+                                </h2>
+                                <p class="exp4" style="height: 0px; opacity: 0; display: none;">
+                                    本课程为图像调整部分的第2课，主要讲解曲线、曝光度和自然饱和度三个图像调整工具的原理与使用，并通过演示曲线图像校正实例，帮助学员初步掌握图像处理方法。
+                                </p>
+                                <div class="timeandicon">
+                                    <div>
+                                        <dl>
+                                            <dd class="mar-b8">
+                                                <i class="time-icon"></i>
+                                                <em>3课时 46分钟</em>
+                                            </dd>
+                                            <dd class="zhongji" style="display: none;">
+                                                <i class="xinhao-icon3"></i>
+                                                <em>中级</em>
+                                            </dd>
+                                        </dl>
+                                        <em class="learn-number" style="display: none">2342人学习</em>
+                                    </div>
+                                    <div>
+                                        <div class="lessonicon-box">
+                                            <a href="http://www.jikexueyuan.com/course/photoshop/">
+                                                <img src="http://a1.jikexueyuan.com/home/201502/26/e28c/54eeb5cc8b7f1.png" width="16">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 职业路径图-->
+            <div class="projectpath" style="height: 350px">
+                <div id="learn-way">
+                    <div class="index-public-title" style="height: 24px">
+                        <strong>
+                            <a href="http://ke.jikexueyuan.com/zhiye/">职业路径图</a>
+                        </strong>
+                        <i class="way">?</i>
+                        <span class="way-infor" style="opacity: 1; margin-left: -5px;">
+                            <i></i>
+                            更系统的职业技能学习路径
+                        </span>
+                        <a href="http://ke.jikexueyuan.com/zhiye/" class="more-lesson">更多>></a>
+                    </div>
+                    <div class="learn-card" style="height: 300px">
+                        <a href="http://ke.jikexueyuan.com/zhiye/web/">
+                            <img src="http://a1.jikexueyuan.com/home/201510/08/b481/5615cd7d3e99f.png" width="100%" height="120">
+                            <h2>WEB大前端工程师</h2>
+                            <p>月薪15k-30k</p>
+                            <p>Web开发的未来趋势</p>
+                            <button class="greenbtn2">立即学习</button>
+                        </a>
+                        <a href="http://ke.jikexueyuan.com/zhiye/android/">
+                            <img src="http://a1.jikexueyuan.com/home/201509/28/a649/560905e64a9d1.png" width="100%" height="120">
+                            <h2>Android工程师</h2>
+                            <p>月薪5k-30k</p>
+                            <p>最火爆的职业 人才缺口大</p>
+                            <button class="greenbtn2">立即学习</button>
+                        </a>
+                        <a href="http://ke.jikexueyuan.com/zhiye/ios/">
+                            <img src="http://a1.jikexueyuan.com/home/201510/08/a7fc/56160c8b90692.png" width="100%" height="120">
+                            <h2>iOS开发工程师</h2>
+                            <p>月薪6k-30k</p>
+                            <p>企业必争的人才资源</p>
+                            <button class="greenbtn2">立即学习</button>
+                        </a>
+                        <a href="http://ke.jikexueyuan.com/zhiye/javaweb/">
+                            <img src="http://a1.jikexueyuan.com/home/201510/08/be91/5616279756548.png" width="100%" height="120">
+                            <h2>JavaWeb工程师</h2>
+                            <p>月薪6k-35k</p>
+                            <p>就业面最广的职业方向</p>
+                            <button class="greenbtn2">立即学习</button>
+                        </a>
+                        <a href="http://ke.jikexueyuan.com/zhiye/php/" style="border-right: 1px solid rgb(228, 228, 228);">
+                            <img src="http://a1.jikexueyuan.com/home/201510/08/24d8/56162481a1ed6.png" width="100%" height="120">
+                            <h2>PHP工程师</h2>
+                            <p>月薪5k-35k</p>
+                            <p>最好的开发语言 没有之一</p>
+                            <button class="greenbtn2">立即学习</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 知识体系-->
+            <div class="system" style="height: 170px">
+                <div class="learnbox">
+                    <div class="index-public-title" style="height: 24px">
+                        <strong>
+                            <a href="/path/">知识体系图</a>
+                        </strong>
+                        <i class="way">?</i>
+                        <span class="way-infor" style="opacity: 1; margin-left: -5px;">
+                            <i></i>
+                            更快速找到你需要的课程
+                        </span>
+                        <a href="http://www.jikexueyuan.com/path/" class="more-lesson">更多>></a>
+                    </div>
+                    <div class="mapbox">
+                        <div class="mapbox-1200">
+                            <div class="card-transform">
+                                <a href="http://www.jikexueyuan.com/path/android/" class="flipper">
+                                    <div class="front flip">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/android.png" width="52">
+                                        <h2>Android</h2>
+                                        <span>90门课程</span>
+                                    </div>
+                                    <div class="back flip">
+                                        <strong>736762人已学习</strong>
+                                        <button class="greenbtn">立即学习</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-transform">
+                                <a href="http://www.jikexueyuan.com/path/html5/" class="flipper">
+                                    <div class="front">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/html.png" width="52">
+                                        <h2>HTML5开发</h2>
+                                        <span>116门课程</span>
+                                    </div>
+                                    <div class="back"  style="display: none">
+                                        <strong>1750152人已学习</strong>
+                                        <button class="greenbtn">立即学习</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-transform">
+                                <a href="http://www.jikexueyuan.com/path/java/" class="flipper">
+                                    <div class="front">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/Java.png" width="52">
+                                        <h2>Java语言</h2>
+                                        <span>45门课程</span>
+                                    </div>
+                                    <div class="back"  style="display: none">
+                                        <strong>660052人已学习</strong>
+                                        <button class="greenbtn">立即学习</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-transform">
+                                <a href="http://www.jikexueyuan.com/path/php/" class="flipper">
+                                    <div class="front sponsorFlip">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/php.png" width="52">
+                                        <h2>PHP语言</h2>
+                                        <span>26门课程</span>
+                                    </div>
+                                    <div class="back sponsorData"  style="display: none">
+                                        <strong>270026人已学习</strong>
+                                        <button class="greenbtn">立即学习</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-transform">
+                                <a href="http://www.jikexueyuan.com/path/javaweb/" class="flipper">
+                                    <div class="front">
+                                        <img src="http://a1.jikexueyuan.com/home/201503/13/7361/55028a07c02d1.jpg" width="52">
+                                        <h2>JavaWeb</h2>
+                                        <span>64门课程</span>
+                                    </div>
+                                    <div class="back"  style="display: none">
+                                        <strong>625687人已学习</strong>
+                                        <button class="greenbtn">立即学习</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-transform">
+                                <a href="http://www.jikexueyuan.com/path/ios/" class="flipper">
+                                    <div class="front">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/ios.png" width="52">
+                                        <h2>iOS开发</h2>
+                                        <span>51门课程</span>
+                                    </div>
+                                    <div class="back"  style="display: none">
+                                        <strong>397759人已学习</strong>
+                                        <button class="greenbtn">立即学习</button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 精品系列课程-->
+            <div id="excellent" style="height: 310px">
+                <div class="w-1000 mar-t40">
+                    <div class="index-public-title">
+                        <strong>
+                            <a href="http://ke.jikexueyuan.com/xilie/">精品系列课程</a>
+                        </strong>
+                        <i class="way">?</i>
+                        <span class="way-infor" style="opacity: 1;margin-left: -5px">
+                            <i></i>
+                            更相关的课程，更有序的学习
+                        </span>
+                        <a class="more-lesson" href="http://ke.jikexueyuan.com/xilie/">更多>></a>
+                    </div>
+                    <div class="wikibox mar-t20">
+                        <div class="lesson-card card1 f_l">
+                            <div class="lesson-class1" style="opacity: 1">
+                            <h2>ThinkPHP 项目开发实战</h2>
+                            <div class="images">
+                                <img src="http://a1.jikexueyuan.com/home/xilie/201511/261412094620.jpg">
+                            </div>
+                            <div class="other">
+                                <span class="lesson-count">8门</span>
+                                <span class="learn-count">54626人学习</span>
+                                <div class="collect">
+                                    <span class="btn btn-def diaLoginBtn greenbtn">收藏</span>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="describe describe1">
+                                <div class="picture">
+                                    <a href="http://my.jikexueyuan.com/3635290469">
+                                        <img src="http://assets.jikexueyuan.com//share/jkxy_public/www/Data/Attachments/user/avtar/2730027.jpeg">
+                                    </a>
+                                </div>
+                                <div class="name">
+                                    <a href="http://my.jikexueyuan.com/3635290469">jinqibu</a>
+                                </div>
+                                <div class="text">
+                                    <a href="http://ke.jikexueyuan.com/xilie/8">通过本课程的学习，理解ThinkPHP 3.2的核心原理、设计思想，掌握框架的各项知识，最终能熟练运用TP框架快速开发功能完备、健壮的Web应用。</a>
+                                </div>
+                                <a href="http://ke.jikexueyuan.com/xilie/8" class="btn btn-def greenbtn msxx">马上学习</a>
+                            </div>
+                        </div>
+                        <div class="lesson-card card2 f_l">
+                            <h2>Axure从入门到精通系列课程</h2>
+                            <div class="images">
+                                <img src="http://a1.jikexueyuan.com/home/xilie/201512/141830293586.jpg">
+                            </div>
+                            <div class="other">
+                                <span class="lesson-count">16门</span>
+                                <span class="learn-count">49567人学习</span>
+                                <div class="collect">
+                                    <span class="btn btn-def diaLoginBtn greenbtn">收藏</span>
+                                </div>
+                            </div>
+                            <div class="describe describe2">
+                                <div class="picture">
+                                    <a href="http://my.jikexueyuan.com/8592485271">
+                                        <img src="http://assets.jikexueyuan.com/user/avtar/201507/05/09/1x9r01m08jn6e.jpeg">
+                                    </a>
+                                </div>
+                                <div class="name">
+                                    <a href="http://my.jikexueyuan.com/8592485271">j_kevin</a>
+                                </div>
+                                <div class="text">
+                                    <a href="http://ke.jikexueyuan.com/xilie/278">Axure作为一款专业的原型设计工具，它可以让设计师们利用需求，设计功能和界面来快速的创建应用软件的线框图、流程图、原型和规格说明文档，并且同时支持多人协作和版本控制管理。
+                                        Axure RP能制作出低保真原型和高保真原型，低保真原型利用线框图构建出软件的大致结构，利用交互效果来表达用户的实际操作方式，低保真原型能在耗费一定的时间完美清晰的表达出软件的实际功能；高保真原型做出的效果几乎和实际效果一致，
+                                        但是它需要投入精力，完整表达设计理念和体验。Axure主要学习站点地图的使用、Axure组件的介绍、Axure母版功能、Axure变量的使用以及Axure的交互，在讲解的基础的过程中会贯穿大量的实战。</a>
+                                </div>
+                                <a href="http://ke.jikexueyuan.com/xilie/278" class="btn btn-def greenbtn msxx">马上学习</a>
+                            </div>
+                        </div>
+                        <div class="lesson-card card3 f_l">
+                            <h2>Flask实战</h2>
+                            <div class="images">
+                                <img src="http://a1.jikexueyuan.com/home/xilie/201511/240914422516.jpg">
+                            </div>
+                            <div class="other">
+                                <span class="lesson-count">6门</span>
+                                <span class="learn-count">21488人学习</span>
+                                <div class="collect">
+                                    <span class="btn btn-def diaLoginBtn greenbtn">收藏</span>
+                                </div>
+                            </div>
+                            <div class="describe describe3">
+                                <div class="picture">
+                                    <a href="http://my.jikexueyuan.com/9464006134">
+                                        <img src="http://assets.jikexueyuan.com/user/avtar/default.gif">
+                                    </a>
+                                </div>
+                                <div class="name">
+                                    <a href="http://my.jikexueyuan.com/9464006134">j_kevin</a>
+                                </div>
+                                <div class="text">
+                                    <a href="http://ke.jikexueyuan.com/xilie/164">Flask是一个优秀的Python Web开发框架，本系列课程将由浅入深的讲解Flask Web开发。本系列课程包含大量实际开发中的实例，并且通过一个小项目驱动整个课程的学习，
+                                        最终还会学习Flask应用的部署。所以，通过本系列课程的学习，你将成为一名比较全面的Flask开发工程师，可以在工作中从事Flask开发。</a>
+                                </div>
+                                <a href="http://ke.jikexueyuan.com/xilie/164" class="btn btn-def greenbtn msxx">马上学习</a>
+                            </div>
+                        </div>
+                        <div class="lesson-card card4 f_l">
+                            <h2>Redis</h2>
+                            <div class="images">
+                                <img src="http://a1.jikexueyuan.com/home/xilie/201511/261139401968.jpg">
+                            </div>
+                            <div class="other">
+                                <span class="lesson-count">7门</span>
+                                <span class="learn-count">21128人学习</span>
+                                <div class="collect">
+                                    <span class="btn btn-def diaLoginBtn greenbtn">收藏</span>
+                                </div>
+                            </div>
+                            <div class="describe describe4">
+                                <div class="picture">
+                                    <a href="http://my.jikexueyuan.com/redis">
+                                        <img src="http://assets.jikexueyuan.com/user/avtar/201508/21/05/0u1v9w9vva8wg.jpeg">
+                                    </a>
+                                </div>
+                                <div class="name">
+                                    <a href="http://my.jikexueyuan.com/redis">玉不琢</a>
+                                </div>
+                                <div class="text">
+                                    <a href="http://ke.jikexueyuan.com/xilie/230">本体系以通俗易懂的方法介绍了Redis基础与实践方面的知识，包括Redis的历史、特点、安装与部署，数据类型与常用的命令等基础；然后详细介绍了Redis的高级应用，
+                                        包括安全性，主从复制，事务，虚拟内存，持久化机制等；最后通过一个综合案例融合了各种知识点的运用。</a>
+                                </div>
+                                <a href="http://ke.jikexueyuan.com/xilie/230" class="btn btn-def greenbtn msxx">马上学习</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Wiki-->
+            <div class="wiki" >
+                <div class="w-1000 mar-t40" >
+                    <div class="index-public-title">
+                        <strong>
+                            <a href="http://wiki.jikexueyuan.com">Wiki</a>
+                        </strong>
+                        <i class="way">?</i>
+                        <span class="way-infor" style="opacity: 1; margin-left: -5px;">
+                            <i></i>
+                            IT技术图文教程库 程序员的藏经阁
+                        </span>
+                        <a href="http://wiki.jikexueyuan.com" class="more-lesson">更多>></a>
+                    </div>
+                    <div class="wikibox mar-t20" style="height: 338px">
+                        <div class="one-wiki" style="border: 1px solid rgb(228, 228, 228);">
+                            <h2>推荐</h2>
+                            <div class="wiki-img mar-t10" style="height: 311px">
+                                <dl>
+                                    <dd>
+                                        <a href="http://wiki.jikexueyuan.com/project/struts-2/?hmsr=www_index_wiki">
+                                            <div class="imgbox">
+                                                <i class="look"></i>
+                                                <img src="http://wikicdn.jikexueyuan.com/cover/recommend/411b49d1966f4447bd6a1229d5cf037d.jpg" class="fengmian">
+                                            </div>
+                                            <h3>Struts 2 教程</h3>
+                                            <span>154页/31章</span>
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="http://wiki.jikexueyuan.com/project/php/?hmsr=www_index_wiki">
+                                            <div class="imgbox">
+                                                <i class="look"></i>
+                                                <img src="http://wikicdn.jikexueyuan.com/cover/recommend/7f54e47e22b141a0a9fa1cdaf13829a0.jpg" class="fengmian">
+                                            </div>
+                                            <h3>PHP 新手指南</h3>
+                                            <span>137页/32章</span>
+                                        </a>
+                                    </dd>
+                                </dl>
+                                <ul>
+                                    <li>
+                                        <a href="http://wiki.jikexueyuan.com/project/asp-net/?hmsr=www_index_wiki">
+                                            <p>· ASP.NET 编程指南</p>
+                                            <span>232页/35章</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wiki.jikexueyuan.com/project/restful/?hmsr=www_index_wiki">
+                                            <p>· RESTful Web 服务教程</p>
+                                            <span>50页/11章</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wiki.jikexueyuan.com/project/nodejs-guide/?hmsr=www_index_wiki">
+                                            <p>· 七天学会 Nodejs</p>
+                                            <span>87页/7章</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 战略合作企业-->
+            <div id="enterprise">
+                <div class="learnbox w-1000 mar-t40">
+                    <div class="index-public-title cf">
+                        <strong>战略合作企业</strong>
+                        <a href="/partner" class="more-lesson">更多>></a>
+                    </div>
+                    <div class="strategy w-1000">
+                        <div class="startegy-box">
+                            <span id="banner-left3" class="arrow-left" style="display: none"></span>
+                            <span id="banner-right3" class="arrow-right" style="display: none"></span>
+                            <div class="swiper-container swiper-strategy">
+                                <div class="swiper-wrapper" style="position: relative; width: 5269px; height: 50px;">
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#gizwits" style="width: 159.667px; height: 50px;">
+                                        <img src="http://a1.jikexueyuan.com/home/201506/08/fe76/55755bc57f9c9.png" alt="机智云">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#msopentech" style="width: 159.667px; height: 50px;">
+                                        <img src="http://a1.jikexueyuan.com/home/201502/04/9621/54d18f3f14fd6.jpg" alt="微软开放技术">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#daocloud" style="width: 159.667px; height: 50px;">
+                                        <img src="http://a1.jikexueyuan.com/home/201508/12/8bd1/55cab4db88fee.png" alt="DaoCloud">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#qingcloud" style="width: 159.667px; height: 50px;">
+                                        <img src="http://a1.jikexueyuan.com/home/201508/18/38f0/55d2fa95ecda8.jpg" alt="青云QingCloud">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#dockone" style="width: 159.667px; height: 50px;">
+                                        <img src="http://a1.jikexueyuan.com/home/201508/18/6755/55d2fd0080bfa.png" alt="灵雀云">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#filemaker" style="width: 159.667px; height: 50px;">
+                                        <img src="http://a1.jikexueyuan.com/home/201511/02/13fa/5637373968bae.png" alt="Filemaker">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner/microsoft/" style="width: 159.667px; height: 50px;">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/microsoft.jpg" alt="微软">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#tencent" style="width: 159.667px; height: 50px;">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/tengxun.jpg" alt="腾讯">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partners/cocos/" style="width: 159.667px; height: 50px;">
+                                       <img src="http://wirrorcdn.jikexueyuan.com/picture/chukong.jpg" alt="Cocos">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#qualcomm" style="width: 159.667px; height: 50px;">
+                                        <img src="http://a1.jikexueyuan.com/home/201506/16/dc6f/557f8ff48f7d3.jpg" alt="Qualcomm">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#xunfei" style="width: 159.667px; height: 50px;">
+                                        <img src="http://a1.jikexueyuan.com/home/201502/04/9fd6/54d1d9f50e1af.jpg" alt="AMD">
+                                    </a>
+                                   <a class="swiper-slide" href="http://www.jikexueyuan.com/partner#xunfei" style="width: 159.667px; height: 50px;">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/keda.jpg" alt="科大讯飞">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partners/cocos/" style="width: 159.667px; height: 50px;">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/tuling.jpg" alt="图灵机器人">
+                                    </a>
+                                    <a class="swiper-slide" href="http://www.jikexueyuan.com/partners/cocos/" style="width: 159.667px; height: 50px;">
+                                        <img src="http://wirrorcdn.jikexueyuan.com/picture/tingyun.jpg" alt="听云">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 合作院校-->
+            <div class="university">
+                <div class="learnbox w-1000 mar-t40">
+                    <div class="index-public-title cf">
+                        <strong>合作院校</strong>
+                        <a href="http://mooc.jikexueyuan.com/" class="more-lesson">更多>></a>
+                    </div>
+                    <div class="swiper-car-box">
+                        <span id="banner-left4" class="arrow-left"></span>
+                        <span id="banner-right4" class="arrow-right"></span>
+                        <div class="swiper-container swiper-car">
+                            <div class="swiper-wrapper" style="width: 3695.14px; height: 110px;">
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                    <img src="http://mooc.jikexueyuan.com/File/8dda2bb223523163ca596c7f026de6ad.png" alt="北京交通大学">
+                                </a>
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                    <img src="http://mooc.jikexueyuan.com/File/56bcbb484f1da10f7af7a0c168a9f6e0.png" alt="中国矿业大学">
+                                </a>
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                    <img src="http://mooc.jikexueyuan.com/File/acd12acf25c0681c43ab4144d2955aec.png" alt="内蒙古大学">
+                                </a>
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                    <img src="http://mooc.jikexueyuan.com/File/62906dcda2846bc2437efa99ab382722.png" alt="辽宁大学">
+                                </a>
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                    <img src="http://mooc.jikexueyuan.com/File/c14635ad605aca1d593e1e52500945af.png" alt="北京化工大学">
+                                </a>
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                    <img src="http://mooc.jikexueyuan.com/File/604ebd122c8734703e1f49f7b4d842ad.png" alt="东南大学">
+                                </a>
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                    <img src="http://mooc.jikexueyuan.com/File/c2000b91a02f14b794d2c9b9071e745d.png" alt="厦门大学">
+                                </a>
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                    <img src="http://mooc.jikexueyuan.com/File/40669370a3f2ea7e3d21a6d182cf296c.png" alt="北京邮电大学">
+                                </a>
+                                <a class="swiper-slide" href="http://mooc.jikexueyuan.com/njtu" style="width: 136.857px; height: 110px;">
+                                     <img src="http://mooc.jikexueyuan.com/File/1eb9dcb3193de807d21941b297483635.png" alt="北京交通大学">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="mar-t50">
+            <div class="jkinfor-block">
+                <div class="jkinfor cf">
+                    <dl>
+                        <dt>
+                            <a href="http://www.jikexueyuan.com/course/">极客学院</a>
+                        </dt>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">职业课程库</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">知识体系图</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">职业路径图</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">企业课程</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">资源下载</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">课程标签</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="http://www.jikexueyuan.com/course/">网站服务</a>
+                        </dt>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">课程需求</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">免费体验VIP</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">黑板报</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">网站地图</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="http://www.jikexueyuan.com/course/">帮助中心</a>
+                        </dt>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">技术问答</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">VIP权益</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">常见问题</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">服务条款</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">版权声明</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">免责声明</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="http://www.jikexueyuan.com/course/">交流合作</a>
+                        </dt>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">关于我们</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">联系我们</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">社会招聘</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">布道师招募</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">合作咨询</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">友情链接</a>
+                        </dd>
+                        <dd>
+                            ·
+                            <a href="http://www.jikexueyuan.com/course/">极客助教招募</a>
+                        </dd>
+                    </dl>
+                    <div class="search-share">
+                        <strong class="jktxt">极客学院，编程是一种信仰！</strong>
+                        <div class="app-download">
+                            <a href="http://www.jikexueyuan.com/app/">
+                                <img src="http://s1.jikexueyuan.com/common/images/iphone_ecb3977.png" width="21">
+                                <div>
+                                    <strong>手机客户端</strong>
+                                    <p>离线缓存 随时学习</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="share">
+                            <a href="http://weibo.com/jikexueyuan" class="sina-icon"></a>
+                            <a href="http://tieba.baidu.com/f?kw=%BC%AB%BF%CD%D1%A7%D4%BA&fr=index" class="tieba-icon"></a>
+                            <a href="#" class="qq-icon">
+                                <img src="http://s1.jikexueyuan.com/common/images/weixin-pop_7fe7a08.png" class="weinxinpop">
+                            </a>
+                        </div>
+                        <div class="kefu-online">
+                            <a href="https://chat.meiqia.com/widget/desktop/index.html?unitid=7594&win=max&ol
+                            =auto&color=initial&specifyGr=0&cookie=006600144050103329416858&_realref_=http%3A%2F%2Fwww.jikexueyuan.com%2F">
+                                <div class="kefu-icon online"></div>
+                                <h5>联系我们</h5>
+                                <p>工作日9:00-21:00在线</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jikexueyuan.js"></script>
+</body>
+</html>
