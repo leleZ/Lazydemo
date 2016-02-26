@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*标题设置*/
+.words{
+    text-align: center;
+    color: slategray;
+    text-shadow:1px 2px 3px;
+}
+
+/*用于控制显示的位置*/
+.box{
+    width: 500px;
+    height:350px;
+    border:1px solid #b4b4b4;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: lightskyblue;
+}
+
+/*用于控制正常盒模型显示图片区域的宽度和高度*/
+.faceul{
+    width: 400px;
+    height: 300px;
+    border:2px solid lightgray;
+    margin-left: 0;
+    list-style-type: none;
+    background-color: lightcyan;
+}
+
+/*用于控制正常盒模型单个图片区域大小*/
+.faceul li {
+    width: 90px;
+    height: 90px;
+    border: 5px solid blue;
+    float: left;
+    /*margin-left: 5px;*/
+    /*margin-top: 5px;*/
+}
+.faceul img{
+    width: 90px;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+/*用于控制怪异盒模型显示图片区域的宽度和高度*/
+.faceul1{
+    width: 440px;
+    height: 330px;
+    border:2px solid lightgray;
+    margin-left: 0;
+    list-style-type: none;
+    background-color: lightcyan;
+}
+/*用于控制怪异盒模型单个图片区域大小*/
+.faceul1 li {
+    width: 110px;
+    height: 110px;
+    border: 5px solid blue;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    /*margin-left: 5px;*/
+    /*margin-top: 5px;*/
+}
+.faceul1 img{
+    width: 90px;
+    margin-top: 2px;
+}
+
+/*弹性盒模型设置*/
+.flexbox{
+    margin:20px;
+    display: -webkit-flex;
+    /*display: -webkit-box;*/
+    width: 1000px;
+    background-image: url(tupian4.jpg);
+}
+.first{
+    height: 380px;
+    background-color: aquamarine;
+    -webkit-flex: 1;
+    -webkit-order: 3;
+    /*-webkit-box-flex: 1;*/
+}
+.second{
+    height: 240px;
+    background-color: cornflowerblue;
+    -webkit-flex: 1;
+    -webkit-order: 1;
+    /*-webkit-box-flex: 1;*/
+}
+.third{
+    height: 240px;
+    background-color: lightsteelblue;
+    -webkit-flex: 1;
+    -webkit-order: 2;
+    /*-webkit-box-flex: 1;*/
+}
+.first,.second,.third{
+    display: -webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
