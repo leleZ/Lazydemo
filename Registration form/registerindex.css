@@ -1,0 +1,85 @@
+body {
+    margin-top: 10px;
+    margin-bottom: auto;
+    padding: 0px;
+    background: url("beijing.gif") repeat;
+}
+/*顶部div CSS设置*/
+.top-center{
+    width: 710px;
+    height: 82px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*左上角圆角图片设置*/
+.corner1{
+    position: absolute;
+    margin-top: 0px;
+}
+/*右上角圆角图片设置*/
+.corner2{
+    float: right;
+}
+.logo{
+    margin-left: 20px;
+}
+/*顶部三个链接设置*/
+.button{
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 340px;
+}
+.button,a:link,a:visited{
+    color: rgb(255, 0, 153);
+}
+/*表格大DIV基本CSS设置*/
+.content{
+    width:710px;
+    height: 1562px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*标题设置*/
+center{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+/*表格一致性CSS设置*/
+table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-spacing: 2px;
+    border-color: grey;
+}
+td{
+    font-size: 12px;
+    border:2px solid #EEEEEE;
+}
+p{
+    font-size: 12px;
+    text-align: center;
+    Line-height:40%;
+}
+.link:hover{
+    color: red;
+    text-decoration: underline;
+}
+.bluetest{
+    color: blue;
+}
+/*左下角圆角设置*/
+.corner3{
+    position: absolute;
+    padding-top: -50px;
+}
+/*右下角圆角设置*/
+.corner4{
+    float: right;
+}
+
