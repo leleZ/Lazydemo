@@ -1,0 +1,68 @@
+@charset "utf-8";
+html,body{width:100%;}
+body { padding: 0; margin: 0; color: #000;font-family: Arial, Helvetica, sans-serif;background:  #fff;}
+div, ul, li, span, img, h1, h1, h2, h3, h4, h5, h6, input, em, dt, dd, button, p, textarea { padding: 0; margin: 0; border: none; list-style: none; font-weight: normal; }
+a:active,a img { color: #333; text-decoration: none; outline:none;}
+a,a:visited,a:link,a:hover { color: #333; text-decoration: none; }
+a{cursor: pointer;}
+img{display:block;border:none;max-width:100%;}
+input,textarea{outline:none;}
+/* 清除浮动 */
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom:1; /* for ie6 & ie7 */
+}
+.f_l{float: left;}
+.f_r{float: right;}
+.pos_rel{position: relative;}
+.pos_abs{position: absolute;}	
+
+html,body{height: 100%;width: 100%;}
+/* 登录页面 */
+.content{background: #fff;padding-top:50px;height:100%;}
+.content .contain{width:700px;margin:100px auto;}
+.login{width:45%;margin-top:10%;padding-right:30px;}
+.login_r{width:55%;}
+.footer1{text-align:center;margin-top:200px;}
+
+/* 首页 */
+.border_l{border-left:1px solid gray;}
+.border_t{border-top:1px solid gray;}
+.ind_con{background: #fff;padding:0;}
+.logo{text-align: center;height:100px;line-height: 100px;}
+.header_logo{font-size: 50px;margin:0 auto;display: inline-block;}
+.con{border-top:1px solid gray;}
+.top_li{padding:5px;width:50px;height:43px;line-height: 43px;font-weight: bold;}
+.menu{height: 100%;}
+.menu_li{background: #fff;padding:10px 25px;}
+.add_ul{padding-left:30px;background: #fff;width:100%;}
+.info{border-left:1px solid gray;height:100%;padding-top:30px;padding-left:50px;}
+table{margin-top:50px;margin-bottom:50px;}
+table tr{border-bottom:2px solid #F2F9FD;height:50px;}
+.wid_250{width:250px;}
+.wid_450{width:450px;}
+.footer{margin:0 auto;}
+
+
+/* 添加新闻页面样式 */
+.news{
+	width:80%;
+	margin:0 auto;
+	margin-top: 100px;
+}
+.news table {border:1px solid #666;}
+.news_tr,.news_tr td{border:1px solid #ccc;height:50px;}
+.news_tr_input{height: 30px;padding-left: 10px;}
+.news_tr td textarea{margin:10px auto;}
+#news_top{text-align: center;font-size: 20px;height: 80px;}
+#news_top span{display:block;color:red;font-size:14px;}
+.news_top{text-align: center;font-size: 20px;height: 80px;}
+.span{color:red;line-height: 30px;display: inline-block;margin-right: 10px;}
+.btn_submit{height:40px;line-height:40px;width:100px;background:rgb(43, 150, 85);color: #fff;font-weight: bold;}

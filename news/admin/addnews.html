@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>添加新闻</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<div>
+	<form action="addnews.php" method="post" enctype="multipart/form-data" onsubmit="return check(this);">
+		<table class="row news">
+			<tr class="news_tr">
+				<td colspan="2" id="news_top">添加新闻<span>（以下带有*为必填项）</span></td>
+			</tr>
+			<tr class="news_tr">
+				<td  class="col-md-2"><span class="span">*</span><laber >新闻标题：</laber></td>
+				<td  class="col-md-10"><input name="title"  placeholder="新闻标题" class="news_tr_input" id="title" value="" /></td>
+			</tr>
+			<tr class="news_tr">
+				<td  class="col-md-2"><span class="span">*</span><laber>作者：</laber></td>
+				<td  class="col-md-10"><input name="author"  placeholder="作者" class="news_tr_input" id="author" value=""/></td>
+			</tr>
+			<tr class="news_tr">
+				<td  class="col-md-2"><span class="span">*</span><laber>来源：</laber></td>
+				<td  class="col-md-10"><input name="source" placeholder="来源" class="news_tr_input" id="source" value=""/></td>
+			</tr>
+			<tr class="news_tr">
+				<td  class="col-md-2"><span class="span">*</span><laber>分类：</laber></td>
+				<td  class="col-md-10">
+					<select name="cate" id="cate">
+						<option value="0">--请选择--</option>
+						<option value="1">推荐</option>
+						<option value="2">百家</option>
+						<option value="3">本地</option>
+						<option value="4">图片</option>
+						<option value="5">娱乐</option>
+						<option value="6">社会</option>
+						<option value="7">军事</option>
+						<option value="8">科技</option>
+						<option value="9">互联网</option>
+						<option value="10">女人</option>
+						<option value="11">更多</option>
+					</select>
+				</td>
+			</tr>
+			<tr class="news_tr">
+				<td  class="col-md-2"><span class="span">*</span><laber>图片：</laber></td>
+				<td  class="col-md-10"><input type="file"  name="file" id="file" value='' /></td>
+			</tr>
+			<tr class="news_tr">
+				<td  class="col-md-2"><span class="span">*</span><laber>概述：</laber></td>
+				<td  class="col-md-10"><textarea cols="175" rows="6" name="describe"></textarea></td>
+			</tr>
+			<tr class="news_tr">
+				<td  class="col-md-2"><span class="span">*</span><laber>内容：</laber></td>
+				<td  class="col-md-10"><textarea cols="175" rows="10" name="content"></textarea></td>
+			</tr>	
+			<tr class="news_tr">
+				<td colspan="2" class="news_top"> 
+					<input type="submit" value="提交" class="btn_submit"/>
+				</td>
+			</tr>
+		</table>
+	
+	</form>
+</div>	
+</body>
+</html>

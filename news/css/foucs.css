@@ -1,0 +1,72 @@
+@charset "utf-8";
+a, body, div, html, img, li, ul { border: 0; margin: 0; padding: 0; font-size: 100%; }
+html, body { height: 100%; }
+img { color: transparent; font-size: 0; vertical-align: middle; -ms-interpolation-mode: bicubic; }
+ol, ul { list-style: none; }
+li { display: list-item; }
+body { min-width: 300px; }
+
+.clearfix:before, .clearfix:after { content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.icon-arrow-a-left, .icon-arrow-a-right { background: url(../images/icon-sd26986d847.png) no-repeat; }
+.icon-arrow-a-left { background-position: 0 0; height: 50px; width: 50px; }
+    .icon-arrow-a-left:hover, .icon-arrow-a-left.arrow-a-left_hover, .icon-arrow-a-left.arrow-a-left-hover { background-position: -60px 0; }
+.icon-arrow-a-right { background-position: -120px 0; height: 50px; width: 50px; }
+    .icon-arrow-a-right:hover, .icon-arrow-a-right.arrow-a-right_hover, .icon-arrow-a-right.arrow-a-right-hover { background-position: -180px 0; }
+
+html, body { background: #fff; font: 12px/1.5 tahoma,helvetica,arial,\5b8b\4f53,sans-serif; }
+* html, * html body { background-image: url(about:blank); background-attachment: fixed; zoom: 1; }
+
+a { color: #262626; text-decoration: none; }
+    a:hover { color: #FF4503; text-decoration: underline; }
+#main {overflow: hidden; zoom: 1; position: relative; }
+#index_b_hero {  height: 187px; margin: auto; position: relative;overflow: hidden; }
+#index_b_hero img { height: 177px; }
+#index_b_hero .heros { height: 187px; }
+#index_b_hero .hero-wrap { overflow: visible; position: absolute; }
+#index_b_hero .next, #index_b_hero .prev { filter: alpha(Opacity=0); opacity: 0; position: absolute; top: 50%; margin-top: -25px; margin-left: 5px; background-color: #303030; z-index: 3; }
+#index_b_hero .next:hover, #index_b_hero .prev:hover { background-color: orangered; }
+#index_b_hero .next { margin: -25px 5px 0 0; right: 0; }
+#index_b_hero .disabled { background-color: #eee; }
+#index_b_hero .mask-left, #index_b_hero .mask-right, #index_b_hero .hero { background: #fff; padding: 5px; z-index: 1; position: absolute; top: 0; left: 0;  height: 177px; overflow: hidden;  }
+#index_b_hero .mask-right, #index_b_hero .mask-left { z-index: 4;  filter: alpha(Opacity=1); opacity: 1; background: #fff; overflow: hidden; }
+#index_b_hero .active { z-index: 2; left: 0; }
+
+
+@media only screen and (min-width: 320px) and (max-width: 410px){
+    #index_b_hero,#index_b_hero .heros{width: 360px;}
+    #index_b_hero .mask-right{ left: 360px; }
+    #index_b_hero img{width: 360px;} 
+    #index_b_hero .mask-right, #index_b_hero .mask-left {left: -360px;}
+    #index_b_hero .mask-left, #index_b_hero .mask-right, #index_b_hero .hero{left: 720px;width: 350px; }
+}
+@media only screen and (min-width: 414px) and (max-width: 440px){
+    #index_b_hero,#index_b_hero .heros{width: 404px;}
+    #index_b_hero .mask-right{ left: 404px; }
+     #index_b_hero img{width: 404px;} 
+    #index_b_hero .mask-right, #index_b_hero .mask-left {left: 404px;}
+    #index_b_hero .mask-left, #index_b_hero .mask-right, #index_b_hero .hero{left: 808px;width: 394px; }
+}
+ @media only screen and (min-width: 440px) and (max-width: 1023px){
+    #index_b_hero,#index_b_hero .heros{width: 430px;}
+    #index_b_hero .mask-right{ left: 430px; }
+    #index_b_hero img{width: 430px;} 
+    #index_b_hero .mask-right, #index_b_hero .mask-left {left: -430px;}
+    #index_b_hero .mask-left, #index_b_hero .mask-right, #index_b_hero .hero{left: 860px;width: 420px; }
+} 
+@media only screen and (max-width: 320px){
+    #index_b_hero,#index_b_hero .heros{width: 310px;}
+    #index_b_hero .mask-right{ left: 310px; }
+     #index_b_hero img{width: 310px;} 
+    #index_b_hero .mask-right, #index_b_hero .mask-left {left: -310px;}
+    #index_b_hero .mask-left, #index_b_hero .mask-right, #index_b_hero .hero{left: 620px;width: 300px; }
+}
+@media only screen and (min-width: 1024px){
+    #index_b_hero,#index_b_hero .heros{width: 1014px;}
+    #index_b_hero .mask-right{ left: 1014px; }
+     #index_b_hero img{width: 1014px;} 
+    #index_b_hero .mask-right, #index_b_hero .mask-left {left: -1014px;}
+    #index_b_hero .mask-left, #index_b_hero .mask-right, #index_b_hero .hero{left: 2028px;width: 1004px; }
+}
